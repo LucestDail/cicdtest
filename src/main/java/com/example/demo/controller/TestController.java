@@ -10,4 +10,9 @@ public class TestController {
 	public String main() {
 		return "cicd test main some information change testing123123123";
 	}
+	
+	@GetMapping("/")
+	public String main1() {
+		return "cicd test main some information change testing123123123";
+	}
 }
