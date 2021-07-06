@@ -8,6 +8,6 @@ public class TestController {
 	
 	@GetMapping("/")
 	public String main() {
-		return "cicd test main some information change testing12345";
+		return "cicd test main some information change testing";
 	}
 }
